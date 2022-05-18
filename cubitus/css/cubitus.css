@@ -1,0 +1,43 @@
+body{
+
+    width:  960px;;
+}
+
+
+.green, .pink, .vert, .blue{
+    border: 2 px solid black;
+width: 16%;
+height: 10em;
+text-align: center
+
+
+}
+
+.blue{
+    background-color: blue;
+color: #000;
+
+
+}
+
+
+
+.green{
+    background-color: green;
+color: #000;
+}
+
+.bloc{
+   
+   display: flex;
+   
+}
+
+.vert{
+background-color: aquamarine ;
+    color: #fff;
+}
+.pink{
+background-color: aquamarine ;
+    color: #fff;
+}

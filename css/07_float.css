@@ -1,0 +1,60 @@
+body{
+
+margin:0 auto;
+/*margin: 0 auto 0 auto; => haut droite bas gauche
+
+margin:0
+margin:0 auto 1; (gauche -> auto)*/
+
+background-color: antiquewhite ;
+
+}
+
+div{
+    width: 90%;
+    margin: 0 auto;
+background-color: lightsteelblue;
+}
+
+p{
+    background-color: mediumaquamarine;
+    display: inline;
+}
+
+
+p span{/*selectionne les span contenue dans les p  */
+
+background-color: yellow;
+
+}
+.boite{
+
+height:11vh;
+width: 15vh;
+padding: 5vh;
+background: url(../img/Chats\(2\).png);
+background-repeat: no-repeat;
+border: 5px double orchid;/*taille style couleur de la bordure*/
+margin: 2vh;
+float: left;
+/*effet flottant permet de placerdes balise cote a cote alors que selon le flux
+du web standard les elements se palcent les uns au-dessus des autres.
+*/
+transition: margin 0.5s;
+}
+
+/*  http://outils-css.aliasdmc.fr/unites-de-longeurs-css.php
+
+    EM: relative to the perma*/
+
+
+
+    .boite:hover{
+        /*la pseudo classe : hover modifie un affichage au survool de la souris*/
+        margin-top: 10vh
+    }
+
+    .clear{
+    clear:both;
+    /*supprime l'effet flotant*/    
+    }

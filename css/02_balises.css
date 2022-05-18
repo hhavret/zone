@@ -1,0 +1,72 @@
+/*commentaire en css*/
+
+  *{
+
+    text-align: right;
+
+
+  }
+
+
+  body{
+      background: #f5deb3;  /* couleur de fond*/
+
+  }
+
+  header {
+  background-color: #900C3F;
+  color:white; /*couleur du texte.*/
+
+  height: 100px; /*hauteur fixé a 100pixel*/
+  }
+
+  nav{
+      background-color:aquamarine;
+height: 60px
+
+  }
+
+  section{
+      background-color: blue;
+    height: 550px;
+    color: yellow;
+
+    }
+
+
+    article{
+        background-color: darkgoldenrod;
+        height: 75px;
+
+    
+    }
+
+
+    footer{
+        background-color: fuchsia;
+        height: 75px;
+    }
+
+
+nav, footer{
+    color: lawngreen;
+    font-size: 25px;
+
+}
+
+.jaune{
+
+    background-color:sienna;
+}
+
+#noir{
+    background-color: tomato;
+    color: #0000;
+text-align: center;
+width: 200px;
+height: 150px;
+font-size: 25px;
+
+
+}
+

@@ -1,0 +1,57 @@
+*{/*l'étoile selectionne tous les éléments de la page*/
+font-family: fantasy;
+}
+
+body{
+    
+    /*Largeur de ma gae 50%*/
+width: 50%;
+margin: center;/*gestion automatique des marges  pour que mon tableau soit centré*/;
+
+}
+
+table{
+    border: 4px solid #483d8b;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+thead, tfoot{
+    background-color: #e6e6fa;
+border: 2px solid #6a5acd;
+
+}
+
+tbody{
+    border: 3px double blue
+    ;
+}
+
+th{
+    border: 1px dotted darkblue;/*dotted pointillé*/
+    padding: 4px; 
+    background-color: rgb(231, 194, 245);
+    width :25%;
+}
+
+td{
+font-size: 100%;
+border: 1px dotted blue;
+padding: 5px; /*padding marge interieur*/
+
+}
+
+
+th:first-child{
+text-align: left;
+background-color: white;
+
+
+}
+
+caption{
+font-size: 30xp;
+color: rgb(80,0,128);
+padding: 0,5rem;
+background-color: rgb(215, 208,255);
+}
