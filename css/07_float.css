@@ -37,7 +37,7 @@ background-repeat: no-repeat;
 border: 5px double orchid;/*taille style couleur de la bordure*/
 margin: 2vh;
 float: left;
-/*effet flottant permet de placerdes balise cote a cote alors que selon le flux
+/*effet flottant permet de placer des balise cote a cote alors que selon le flux
 du web standard les elements se palcent les uns au-dessus des autres.
 */
 transition: margin 0.5s;
@@ -58,3 +58,4 @@ transition: margin 0.5s;
     clear:both;
     /*supprime l'effet flotant*/    
     }
+    

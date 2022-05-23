@@ -1,0 +1,116 @@
+*{
+    font-family: sans-serif/*police d'ecriture*/
+}
+
+
+nav{
+
+    background: #000;
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+top: 0;
+/* position a a partir du haut de l'écran*/
+left: 0;
+/*position a partir de la gauche de l'écran*/
+margin: 0 0 20px;
+}
+ 
+
+nav a{
+
+    /*tous les  liens à l'interieur de la balise nav */
+
+    float: left; /*effet flottant a gauche*/;
+
+    text-decoration: none; /*pas d'héritage avec effet souligné comme c'ets standard pour les liens sous tous les navigteurs*/
+
+
+    color: white; /*couleur du texte*/
+line-height: 2.7rem;/*interligne*/
+padding: 0em 2em; /*marges interieru on les fait dans le sens des aiguilles duen montre*/
+font: size 1.2em; /*taille du texte*/
+transition: 1s; /*temps de transition lors du hover (survolde la souris ): ici2 sec*/
+
+}
+
+
+nav a:hover{ /*tout les liens  au survol de la souris dans la nav*/
+
+
+    background-color: #fda500;
+    color: #000
+
+}
+
+
+/*1er contenair*/
+.container{
+    width: 70%;
+    margin: 4% auto;
+background: #f1fcde;
+padding: 2em;
+}
+
+mark{
+
+    background: #b5a7cf;
+
+}
+
+
+/*2eme container*/
+.container1{
+    width: 70%;
+margin: 2% auto;
+background: #f1fcde;
+padding:  2em;
+}
+
+.container2,.container3{
+    width : 44.5%;
+    background: #f1fcde;
+    padding: 2%;
+    float: left;
+}
+
+.container2{
+    margin-right: 1.5%;
+}
+.container3{
+    margin-left: 1.5%;
+}
+/*5éme container*/
+.container4{
+    margin-top: 2em;
+}
+.clear{
+    clear: both;
+}
+.container3 ol li:nth-of-type(11){
+    border: 1px solid crimson;
+}
+.container3 ol li:first-child{
+    font-weight: 700;
+}
+.container3 ol li:nth-of-type(7){
+opacity: 0.5;
+}
+
+.container3 ol li:nth-of-type(7){
+    color: darkred
+
+    }
+    
+    /* exercice supplémentaire : supplémentaire*
+    bordure sur li "border"
+    fontweight sur li "font-weight"
+    opacity sur lui "opacity"
+    color sur l'important
+    */
+
+
+    .li{
+        border: #000;
+    }
