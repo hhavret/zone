@@ -1,0 +1,91 @@
+
+nav{
+
+    background: rgb(37, 194, 22);
+    padding: 0 0.5em;
+    position: fixed;
+    text-align: left;
+    width: 100%;
+top: 50;
+/* position a a partir du haut de l'écran*/
+left: 10
+/*position a partir de la gauche de l'écran*/
+margin: 0 0 20px;
+}body{
+    background: #a6ff00;
+}
+
+.container{
+width: 50%;
+margin:0 auto;
+}
+
+.header {
+    position: relative;
+    top: 0%;
+    height: 20%;
+    }
+    /*Header CSS*/
+    img#apple {
+    position: relative;
+    top:50%;
+    height: 50%;
+    left: 0px;
+    }
+    img#title {
+    position: relative;
+    top:10%;
+    height:80%;
+    vertical-align:right;
+    margin-right: 0%;
+    }
+   .left{
+        float:left;
+      }
+      .right{
+          float:right;
+      }
+
+      .nav{border-right-width: 110px solid #61f231;}
+
+       /* The navigation bar */
+
+  
+  /* Links inside the navbar */
+  .navbar{
+    margin: 5% 0;
+    float: left;
+    display: block;
+    color: #881c1c;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
+  } 
+
+  .navbar{margin: 20%;
+    list-style: none;
+    padding: 1em 0;
+    border-bottom: 2px solid #61f231;
+    border-top: 2px solid #61f231;
+}
+
+
+
+
+body {
+    background-color: rgb(243, 240, 237);
+    margin: 15px auto;
+    border: 1px solid black;
+}
+

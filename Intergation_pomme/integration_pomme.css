@@ -1,0 +1,70 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+font-family: 'koulen' cursive;
+background: #ddeeaa;
+
+}
+
+#conteneur{
+
+    width: 770px; /*largeur */
+margin :  0 auto; /*marge automatic qui centre le bloc apres l'avori remonté le plus haut possible dans mon affiche*/
+text-align: left;
+border: 2px solid #aabb44;
+background:  #fff; /*couleur du fond de mon #conteneur */
+}
+
+
+h1{
+    height:258px;/* perssonnaliser la hauteur du titre*/
+background: url(img/apple.jpg) no-repeat left top;
+margin: 0;
+
+
+}
+
+
+h1 a {
+    width: 400px;
+    height: 70px;
+    display :black;
+    background: url(img/title.gif) no-repeat ;
+position :relative;
+left: 350px;
+top: 15px;
+text-indent: -5000px;
+
+}
+
+
+ul {
+;
+    height: 35px;
+    Margin
+    background: url(img/title.gif) no-repeat ;
+position :relative;
+left: 350px;
+top: 15px;
+text-indent: -5000px;
+
+
+}
+
+main <h2>
+}
+
+
+
+        height: 35px;
+        Margin
+        background: url(img/title.gif) no-repeat ;
+    position :relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px;
+    
+   
+        
+        

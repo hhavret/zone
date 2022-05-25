@@ -1,0 +1,95 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    background: #ddeeaa;
+}
+#conteneur{
+    width: 770px;/* Largeur */
+    margin: 0 auto;/* marge automatique qui centre le bloc après l'avoir remonté le plus haut possible dans mon affichage */
+    text-align: left;/* centre le contenu de mon #conteneur */
+    border: 2px solid #aabb44;/* bordeur autour de toute la page */
+    background: #fff;/* couleur du fond de mon #conteneur */
+}
+h1{
+    height: 258px;/* personnaliser la hauteur de mon titre */
+    background: url(img/apple.jpg) no-repeat left top;
+    margin: 0;
+}
+h1 a{/* On donne les mêmes dimensions au lien, chose possible grâce à la propriété display : block; qui transforme le lien en élément de type block, auquel on peut donner des propriétés de taille. On met aussi l'image de fond qui a les mêmes dimensions que le cadre ainsi créé
+    */
+    width: 400px;
+    height: 70px;
+    display: block;
+    background: url(img/title.gif) no-repeat;
+    position: relative;
+    left: 350px;
+    top: 15px;
+    text-indent: -5000px;
+    /* le text-indent négatif est fait pour pouvoir cacher le texte hors de la page, ce que nous voulons */
+}
+ul{
+    height: 35px;/* On donne une hauteur au menu, correspondant à la taille de l'image utilisée en fond */
+    margin: 0;
+    padding: 0;
+    background: url(img/bg_menu.gif) repeat-x 0 -25px;
+    /* On met ensuite l'image de fond avec un décalge de 25 pixels vers le haut */
+    list-style-type: none;
+    /* On cache les puces */
+}
+ul li{
+    float: left;
+    /* On rend les li en flottant pour pouvoir les afficher horizontalment */
+    text-align: center; /* On centre le texte */
+}
+ul li a{/* C'est sur les liens que le gros du tarvail est effectué */
+    display: block;
+    /* Nous pouvons dimensionner les a grâce à la propriété dispaly: block; */
+    width: 130px;/* largeur*/
+    line-height: 25px;
+    /* hauteur de ligne */
+    font-size: 1.2em;/* taille de police */
+    font-weight: bold;/* mise en accentuation gras / bold de la police */
+    letter-spacing: 2px;/* ecpacement des lettres */
+    color: #fff; /* couleur du texte (de la police) */
+    text-decoration: none;/* décoration du texte */
+    border-right: 2px solid #dea;
+}
+ul li a:hover{
+    background: url(img/bg_menu.gif) repeat-x 0 0;
+}
+main{
+    padding: 0 30px 0 100px;
+    background: url(img/bg_page.gif);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+}
+main h2{
+    padding-left: 25px;/* on décale le texte en fonction de l'image*/
+    line-height: 25px;/* on décale le texte en fonction de l'image avec un interligne */
+    font-size: 1.4em;/* on précise une taille de police */
+    background: url(img/little_apple.gif) left bottom;/* une petite image */
+    background-repeat: no-repeat;
+    color: #9b2;
+    border-bottom: 1px solid #9b2;/* bordeur du bas avec couleur */
+}
+main h3{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid #9b2;
+    border-left: 3px solid #9b2;
+    color: #9b2;
+}
+main p{
+    text-align: justify;/* alignement justifié */
+    text-indent: 2em;/* indentation supérieure à l'état normal pour aérer le tout*/
+    line-height: 1.7em;/* hauteur de ligne supérieur à l'état normal pour aérer le tout */
+}
+footer{
+    margin: 0;
+    padding-right: 10px;
+    line-height: 30px;
+    text-align: right;
+    color: #8a0;
+}
