@@ -1,0 +1,44 @@
+body{
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    background: #ddeeaa;
+    font-family: Cormorand;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+
+
+
+    .assiette img{
+        width: 100%;
+        margin: 5% auto;}
+    
+    .assiette p {
+        font: small-caps bold 1.2rem sans-serif;
+        text-align: right;
+    }
+    
+
+
+.resto_01
+{  
+    width: 15;
+    height: 15%;
+padding: center;
+}
+
+.h1{
+margin : right;
+}
+
+.la salle {
+    padding: .5rem;
+
+}

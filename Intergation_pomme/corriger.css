@@ -43,7 +43,7 @@ ul li{
     /* On rend les li en flottant pour pouvoir les afficher horizontalment */
     text-align: center; /* On centre le texte */
 }
-ul li a{/* C'est sur les liens que le gros du tarvail est effectué */
+ul li a{/* Cu'est sur les liens que le gros d tarvail est effectué */
     display: block;
     /* Nous pouvons dimensionner les a grâce à la propriété dispaly: block; */
     width: 130px;/* largeur*/

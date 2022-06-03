@@ -40,9 +40,8 @@ text-indent: -5000px;
 
 
 ul {
-;
     height: 35px;
-    Margin
+    Margin: 0;
     background: url(img/title.gif) no-repeat ;
 position :relative;
 left: 350px;
@@ -52,7 +51,12 @@ text-indent: -5000px;
 
 }
 
-main <h2>
+<main>
+
+
+<h2>
+
+
 }
 
 
